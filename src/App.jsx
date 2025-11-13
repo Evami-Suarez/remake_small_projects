@@ -1,12 +1,14 @@
 import "./App.css";
 import Accordian from "./components/accordian";
 import RandomColors from "./components/random-colors";
+import StarRating from "./components/star-rating";
 
 const App = () => {
   return (
     <>
       {/* <Accordian /> */}
-      <RandomColors />
+      {/* <RandomColors /> */}
+      <StarRating noOfStart={10} />
     </>
   );
 };
